@@ -7,6 +7,8 @@ before_install:
   - "echo before_install"
 before_script:
   - "echo 'before_script'"
+before_deploy:
+  - "echo before_deploy"
 deploy:
   provider: npm
         email: "574637316@qq.com"
