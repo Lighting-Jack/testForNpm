@@ -1,6 +1,6 @@
 {
   "name": "tpnpm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "测试npm发版本",
   "main": "index.js",
   "scripts": {
