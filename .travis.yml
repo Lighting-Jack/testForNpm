@@ -1,18 +1,19 @@
 language: node_js
-install:
-  - npm install
-script:
-  - npm run dev
-before_install:
-  - "echo before_install"
-before_script:
-  - "echo 'before_script'"
-before_deploy:
-  - "echo before_deploy"
-# deploy:
-#   provider: npm
-#         email: "574637316@qq.com"
-#         api_key: "b66fe4c1-a1c4-4571-bd61-2339e20f1370"
-#         skip_cleanup: true
-#         on:
-#           tags: true
+node_js:
+  - "7"
+  - "6"
+  - "5"
+  - "4"
+
+script: echo "Running tests against $(node -v) ..."
+
+jobs:
+  include:
+    - stage: npm release
+      node_js: "7"
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        email: "574637316@qq.com"
+        api_key: "9ae06cae-7e5b-4a79-8b1c-640c0f88a7ce"
+        on: deploy-npm-release
