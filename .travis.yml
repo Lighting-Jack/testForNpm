@@ -13,6 +13,6 @@ jobs:
         provider: npm
         email: "574637316@qq.com"
         api_key: "37d9dd0f-870a-4695-a655-f8ff974c2217"
-       skip_cleanup: true
+        skip_cleanup: true
         on:
           tags: true
