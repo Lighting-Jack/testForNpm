@@ -16,4 +16,4 @@ jobs:
         provider: npm
         email: "574637316@qq.com"
         api_key: "9ae06cae-7e5b-4a79-8b1c-640c0f88a7ce"
-        on: deploy-npm-release
+        branches: master
