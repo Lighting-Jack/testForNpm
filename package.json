@@ -1,0 +1,19 @@
+{
+  "name": "testfornpm",
+  "version": "1.0.0",
+  "description": "测试npm发版本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lighting-Jack/testForNpm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lighting-Jack/testForNpm/issues"
+  },
+  "homepage": "https://github.com/Lighting-Jack/testForNpm#readme"
+}
