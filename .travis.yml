@@ -9,10 +9,10 @@ before_script:
   - "echo 'before_script'"
 before_deploy:
   - "echo before_deploy"
-deploy:
-  provider: npm
-        email: "574637316@qq.com"
-        api_key: "b66fe4c1-a1c4-4571-bd61-2339e20f1370"
-        skip_cleanup: true
-        on:
-          tags: true
+# deploy:
+#   provider: npm
+#         email: "574637316@qq.com"
+#         api_key: "b66fe4c1-a1c4-4571-bd61-2339e20f1370"
+#         skip_cleanup: true
+#         on:
+#           tags: true
