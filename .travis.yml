@@ -10,7 +10,6 @@ jobs:
     deploy:
       provider: npm
       email: "$NPM_EMAIL"
-      api_key: "$NPM_APIKEY"
       skip_cleanup: true
       on:
         tags: true
