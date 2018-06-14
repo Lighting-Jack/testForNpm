@@ -1,6 +1,6 @@
 {
   "name": "testfornpm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "测试npm发版本",
   "main": "index.js",
   "scripts": {
