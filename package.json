@@ -1,5 +1,5 @@
 {
-  "name": "testfornpm",
+  "name": "tpnpm",
   "version": "1.1.4",
   "description": "测试npm发版本123",
   "main": "index.js",
